@@ -2,9 +2,8 @@ import {
   people01,
   people02,
   people03,
-  facebook,
-  instagram,
   linkedin,
+  telegram,
   twitter,
   airbnb,
   binance,
@@ -13,157 +12,177 @@ import {
   send,
   shield,
   star,
-} from '../assets';
+} from "../assets";
 
 export const navLinks = [
   {
-    id: 'home',
-    title: 'Home',
+    id: "home",
+    title: "Home",
   },
   {
-    id: 'features',
-    title: 'Features',
+    id: "about",
+    title: "About",
   },
   {
-    id: 'product',
-    title: 'Product',
+    id: "features",
+    title: "Features",
   },
   {
-    id: 'clients',
-    title: 'Clients',
+    id: "team",
+    title: "Team",
+  },
+  {
+    id: "partners",
+    title: "Partners",
+  },
+  {
+    id: "whitepaper",
+    title: "Whitepaper",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
 export const features = [
   {
-    id: 'feature-1',
+    id: "feature-1",
     icon: star,
-    title: 'Rewards',
+    title: "Rewards",
     content:
-      'The best credit cards offer some tantalizing combinations of promotions and prizes',
+      "The best crypto payment offer some tantalizing combinations of promotions and prizes",
   },
   {
-    id: 'feature-2',
+    id: "feature-2",
     icon: shield,
-    title: '100% Secured',
+    title: "100% Secured",
     content:
-      'We take proactive steps make sure your information and transactions are secure.',
+      "We take proactive steps make sure your information and transactions are secure.",
   },
   {
-    id: 'feature-3',
+    id: "feature-3",
     icon: send,
-    title: 'Balance Transfer',
+    title: "Balance Transfer",
     content:
-      'A balance transfer credit card can save you a lot of money in interest charges.',
+      "A balance transfer crypto payment can save you a lot of money in interest charges.",
   },
 ];
 
-export const feedback = [
+export const teamMembers = [
   {
-    id: 'feedback-1',
+    id: "team-1",
     content:
-      'Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.',
-    name: 'Herman Jensen',
-    title: 'Founder & Leader',
-    img: people01,
-  },
-  {
-    id: 'feedback-2',
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: 'Steve Mark',
-    title: 'Founder & Leader',
+      "Roland is a Public Relations (PR) & Communications guru with an immense passion for the Blockchain and Crypto Industry. A fusion of his expertise and passion led to the dawn of Optimisus in 2020. Roland  has garnered experience in Information Technology, Public Relations, media content writing and publishing for major blockchain projects including crypto exchanges, crypto news publishers and Tokens. At Optimisus, he is the vision bearer and team leader.",
+    name: "Roland Guirdonan",
+    title: "CEO & Founder ",
     img: people02,
   },
   {
-    id: 'feedback-3',
+    id: "team-2",
     content:
-      'It is usually people in the money business, finance, and international trade that are really rich.',
-    name: 'Kenn Gallagher',
-    title: 'Founder & Leader',
+      "Mayowa is a blockchain & crypto expert with a keen interest in crypto investment analysis and crypto trading, an occupation he has done for reputable blockchain & crypto projects and companies since 2017. Mayowa supervises day to day operations for all Optimisus projects.",
+    name: "Mayowa Adenle",
+    title: "Chief Operating Officer",
+    img: people01,
+  },
+  {
+    id: "team-3",
+    content:
+      "Daniel is an accomplished writer with vast experience in print and digital media publications. He has over four years experience in creating, writing, editing and publishing crypto content for major crypto media companies. Daniel leads the team of content writers, editors and contributors to Optimisus website and social media.",
+    name: "Daniel Karikari",
+    title: "Editor-in-Chief ",
+    img: people03,
+  },
+  {
+    id: "team-4",
+    content:
+      "Ivan is a business strategist responsible for implementing strategic plans and a growth strategy which includes building and managing business relationships as well as partnerships for Optimisus. Ivan has over 5 years experience in business development, strategy and analysis for firms in the global financial markets industry such as  Equities, Bonds, Derivatives and Crypto.",
+    name: "Ivan Begumisa",
+    title: "Chief Strategy Officer",
     img: people03,
   },
 ];
 
 export const stats = [
   {
-    id: 'stats-1',
-    title: 'User Active',
-    value: '3800+',
+    id: "stats-1",
+    title: "User Active",
+    value: "3800+",
   },
   {
-    id: 'stats-2',
-    title: 'Trusted by Company',
-    value: '230+',
+    id: "stats-2",
+    title: "Trusted by Company",
+    value: "230+",
   },
   {
-    id: 'stats-3',
-    title: 'Transaction',
-    value: '$230M+',
+    id: "stats-3",
+    title: "Transaction",
+    value: "$230M+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: 'Useful Links',
+    title: "Useful Links",
     links: [
       {
-        name: 'Content',
-        link: 'https://www.hoobank.com/content/',
+        name: "Content",
+        link: "https://www.hoobank.com/content/",
       },
       {
-        name: 'How it Works',
-        link: 'https://www.hoobank.com/how-it-works/',
+        name: "How it Works",
+        link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: 'Create',
-        link: 'https://www.hoobank.com/create/',
+        name: "Create",
+        link: "https://www.hoobank.com/create/",
       },
       {
-        name: 'Explore',
-        link: 'https://www.hoobank.com/explore/',
+        name: "Explore",
+        link: "https://www.hoobank.com/explore/",
       },
       {
-        name: 'Terms & Services',
-        link: 'https://www.hoobank.com/terms-and-services/',
+        name: "Terms & Services",
+        link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: 'Community',
+    title: "Community",
     links: [
       {
-        name: 'Help Center',
-        link: 'https://www.hoobank.com/help-center/',
+        name: "Help Center",
+        link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: 'Partners',
-        link: 'https://www.hoobank.com/partners/',
+        name: "Partners",
+        link: "https://www.hoobank.com/partners/",
       },
       {
-        name: 'Suggestions',
-        link: 'https://www.hoobank.com/suggestions/',
+        name: "Suggestions",
+        link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: 'Blog',
-        link: 'https://www.hoobank.com/blog/',
+        name: "Blog",
+        link: "https://www.hoobank.com/blog/",
       },
       {
-        name: 'Newsletters',
-        link: 'https://www.hoobank.com/newsletters/',
+        name: "Newsletters",
+        link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: 'Partner',
+    title: "Partner",
     links: [
       {
-        name: 'Our Partner',
-        link: 'https://www.hoobank.com/our-partner/',
+        name: "Our Partner",
+        link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: 'Become a Partner',
-        link: 'https://www.hoobank.com/become-a-partner/',
+        name: "Become a Partner",
+        link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },
@@ -171,42 +190,37 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: 'social-media-1',
-    icon: instagram,
-    link: 'https://www.instagram.com/',
+    id: "social-media-1",
+    icon: telegram,
+    link: "https://t.me/optimisus_token",
   },
   {
-    id: 'social-media-2',
-    icon: facebook,
-    link: 'https://www.facebook.com/',
-  },
-  {
-    id: 'social-media-3',
+    id: "social-media-2",
     icon: twitter,
-    link: 'https://www.twitter.com/',
+    link: "https://twitter.com/Optimisus_io",
   },
   {
-    id: 'social-media-4',
+    id: "social-media-4",
     icon: linkedin,
-    link: 'https://www.linkedin.com/',
+    link: "https://www.linkedin.com/company/optimisus-io/",
   },
 ];
 
 export const clients = [
   {
-    id: 'client-1',
+    id: "client-1",
     logo: airbnb,
   },
   {
-    id: 'client-2',
+    id: "client-2",
     logo: binance,
   },
   {
-    id: 'client-3',
+    id: "client-3",
     logo: coinbase,
   },
   {
-    id: 'client-4',
+    id: "client-4",
     logo: dropbox,
   },
 ];
