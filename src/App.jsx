@@ -12,6 +12,7 @@ import {
   Teams,
   Hero,
   About,
+  Exchanges,
 } from "./components";
 
 const App = () => (
@@ -35,6 +36,7 @@ const App = () => (
         <ReadToEarn />
         <ContributeToEarn />
         <EditToEarn />
+        <Exchanges />
         <Teams />
         <Clients />
         <CTA />

@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Teams from "./Teams";
 import Hero from "./Hero";
 import About from "./About";
+import Exchanges from "./Exchanges";
 
 export {
   Navbar,
@@ -22,4 +23,5 @@ export {
   Footer,
   Teams,
   Hero,
+  Exchanges,
 };

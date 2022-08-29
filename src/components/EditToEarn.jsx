@@ -14,7 +14,11 @@ const EditToEarn = () => (
         users’ articles and earn tokens in return.
       </p>
 
-      <Button styles={`mt-10`} destinations={"https://www.optimisus.com"} />
+      <Button
+        styles={`mt-10`}
+        text="Get Started"
+        destinations={"https://www.optimisus.com"}
+      />
     </div>
 
     <div className={layout.sectionImg}>

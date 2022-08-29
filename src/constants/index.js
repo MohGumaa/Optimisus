@@ -5,13 +5,23 @@ import {
   linkedin,
   telegram,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
+  cryptofest,
+  cryptoNFT,
+  dehotels,
+  encircleg,
+  summitDubai,
+  nowpayments,
   send,
   shield,
   star,
+  uniswaplogo,
+  medexcom,
+  pancake,
+  sushi,
+  uniswap,
+  uniswapvb,
+  cryptology,
+  mexc,
 } from "../assets";
 
 export const navLinks = [
@@ -73,7 +83,7 @@ export const teamMembers = [
   {
     id: "team-1",
     content:
-      "Roland is a Public Relations (PR) & Communications guru with an immense passion for the Blockchain and Crypto Industry. A fusion of his expertise and passion led to the dawn of Optimisus in 2020. Roland  has garnered experience in Information Technology, Public Relations, media content writing and publishing for major blockchain projects including crypto exchanges, crypto news publishers and Tokens. At Optimisus, he is the vision bearer and team leader.",
+      "Roland is a Public Relations (PR) & Communications guru with an immense passion for the Blockchain and Crypto Industry. A fusion of his expertise and passion led to the dawn of Optimisus in 2020.",
     name: "Roland Guirdonan",
     title: "CEO & Founder ",
     img: people02,
@@ -81,7 +91,7 @@ export const teamMembers = [
   {
     id: "team-2",
     content:
-      "Mayowa is a blockchain & crypto expert with a keen interest in crypto investment analysis and crypto trading, an occupation he has done for reputable blockchain & crypto projects and companies since 2017. Mayowa supervises day to day operations for all Optimisus projects.",
+      "Mayowa is a blockchain & crypto expert with a keen interest in crypto investment analysis and crypto trading, an occupation he has done for reputable blockchain & crypto projects and companies since 2017.",
     name: "Mayowa Adenle",
     title: "Chief Operating Officer",
     img: people01,
@@ -89,7 +99,7 @@ export const teamMembers = [
   {
     id: "team-3",
     content:
-      "Daniel is an accomplished writer with vast experience in print and digital media publications. He has over four years experience in creating, writing, editing and publishing crypto content for major crypto media companies. Daniel leads the team of content writers, editors and contributors to Optimisus website and social media.",
+      "Daniel is an accomplished writer with vast experience in print and digital media publications. He has over four years experience in creating, writing, editing and publishing crypto content for major crypto media.",
     name: "Daniel Karikari",
     title: "Editor-in-Chief ",
     img: people03,
@@ -97,7 +107,7 @@ export const teamMembers = [
   {
     id: "team-4",
     content:
-      "Ivan is a business strategist responsible for implementing strategic plans and a growth strategy which includes building and managing business relationships as well as partnerships for Optimisus. Ivan has over 5 years experience in business development, strategy and analysis for firms in the global financial markets industry such as  Equities, Bonds, Derivatives and Crypto.",
+      "Ivan is a business strategist responsible for implementing strategic plans and a growth strategy which includes building and managing business relationships as well as partnerships for Optimisus.",
     name: "Ivan Begumisa",
     title: "Chief Strategy Officer",
     img: people03,
@@ -127,24 +137,20 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Home",
+        link: "#home",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "About",
+        link: "#about",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Features",
+        link: "#features",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Team",
+        link: "#team",
       },
     ],
   },
@@ -153,23 +159,19 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://www.optimisus.com/contact-us",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        link: "#partners",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Advertise with us",
+        link: "https://www.optimisus.com/contact-us",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        link: "https://www.optimisus.com/",
       },
     ],
   },
@@ -177,12 +179,16 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Become a Partner",
+        link: "https://www.optimisus.com/contact-us",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Terms of use",
+        link: "https://www.optimisus.com/terms-of-use",
+      },
+      {
+        name: "Privacy Policy",
+        link: "https://www.optimisus.com/privacy-policy",
       },
     ],
   },
@@ -209,18 +215,75 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: cryptofest,
+    link: "https://cryptofestdubai.com/",
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: summitDubai,
+    link: "www.aimsummit.com",
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: dehotels,
+    link: "#",
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: nowpayments,
+    link: "https://nowpayments.io/",
+  },
+  {
+    id: "client-5",
+    logo: cryptoNFT,
+    link: "#",
+  },
+  {
+    id: "client-6",
+    logo: encircleg,
+    link: "#",
+  },
+];
+
+export const exchangesLogo = [
+  {
+    id: "exchange-1",
+    logo: uniswaplogo,
+    link: "https://cryptofestdubai.com/",
+  },
+  {
+    id: "exchange-2",
+    logo: medexcom,
+    link: "www.aimsummit.com",
+  },
+  {
+    id: "exchange-3",
+    logo: pancake,
+    link: "#",
+  },
+  {
+    id: "exchange-4",
+    logo: sushi,
+    link: "https://nowpayments.io/",
+  },
+  {
+    id: "exchange-5",
+    logo: uniswap,
+    link: "#",
+  },
+  {
+    id: "exchange-6",
+    logo: uniswapvb,
+    link: "#",
+  },
+  {
+    id: "exchange-7",
+    logo: cryptology,
+    link: "#",
+  },
+  {
+    id: "exchange-8",
+    logo: mexc,
+    link: "#",
   },
 ];

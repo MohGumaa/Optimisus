@@ -22,7 +22,7 @@ const Teams = () => (
       </div>
     </div>
 
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+    <div className="flex flex-wrap sm:justify-between justify-center w-full feedback-container relative z-[1]">
       {teamMembers.map((card) => (
         <TeamCard key={card.id} {...card} />
       ))}

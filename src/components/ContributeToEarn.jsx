@@ -36,7 +36,11 @@ const ContributeToEarn = () => (
         anyone deserves a chance. After all, these experts were once beginners
         who were given a chance.
       </p>
-      <Button styles={`mt-10`} destinations={"https://www.optimisus.com"} />
+      <Button
+        styles={`mt-10`}
+        text="Get Started"
+        destinations={"https://www.optimisus.com"}
+      />
     </div>
   </section>
 );

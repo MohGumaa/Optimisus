@@ -69,6 +69,42 @@
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.client-logo {
+  filter: drop-shadow(8px 8px 10px gray);
+  transform: scale(1);
+  transition: transform 0.1s ease-out, -webkit-transform 0.1s ease-out,
+    -moz-transform 0.1s ease-out, -o-transform 0.1s ease-out;
+}
+
+.client-logo:hover {
+  transform: scale(0.97);
+}
+
+.exchange-logo {
+  background: #000;
+  height: 90px;
+  max-width: 297px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  border-radius: 1rem;
+  padding: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  .exchange-logo {
+    max-width: 173px;
+    height: 70px;
+    margin: 4px 0;
+  }
+
+  .exchange-logo img {
+    width: 85%;
+  }
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);

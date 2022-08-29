@@ -42,7 +42,11 @@ const ReadToEarn = () => (
         latest news and developments in this rapidly-growing industry.
       </p>
 
-      <Button styles={`mt-10`} destinations={"https://www.optimisus.com"} />
+      <Button
+        styles={`mt-10`}
+        text="Get Started"
+        destinations={"https://www.optimisus.com"}
+      />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
