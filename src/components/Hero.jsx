@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
             Revolutionizing <br className="sm:block hidden" />{" "}
             <span className="text-gradient">The Crypto</span>{" "}
           </h1>
@@ -34,7 +34,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[40px] text-white ss:leading-[100.8px] leading-[75px] w-full">
           News Industry.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
