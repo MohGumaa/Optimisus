@@ -21,17 +21,11 @@ import discount from "./Discount.svg";
 import linkedin from "./linkedin.svg";
 import telegram from "./telegram.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
-import uniswaplogo from "./uniswaplogo.png";
-import medexcom from "./medexcom.png";
-import pancake from "./pancake.png";
-import sushi from "./sushi.png";
-import uniswap from "./uniswap.png";
-import uniswapvb from "./uniswapvb.png";
-import cryptology from "./cryptology.png";
-import mexc from "./mexc.svg";
+import ivan from "./ivan.jpg";
+import roland from "./roland.jpg";
+import mayowa from "./mayowa.jpg";
+import daniel from "./daniel.jpg";
+import tokenomics from "./tokenomics.png";
 
 export {
   cryptofest,
@@ -57,15 +51,9 @@ export {
   linkedin,
   telegram,
   twitter,
-  people01,
-  people02,
-  people03,
-  uniswaplogo,
-  medexcom,
-  pancake,
-  sushi,
-  uniswap,
-  uniswapvb,
-  cryptology,
-  mexc,
+  ivan,
+  roland,
+  mayowa,
+  daniel,
+  tokenomics,
 };

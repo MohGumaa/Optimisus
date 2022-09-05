@@ -14,11 +14,13 @@ const About = () => (
       informed decisions about these emerging technologies and the latest
       developments.
     </p>
-    <p className={`${styles.paragraphSm}  mt-5`}>
+    <p className={`${styles.paragraphSm}  mt-3`}>
       Our goal is to allow users to earn tokens by reading, writing, editing,
-      and engaging with content. The more they engage, the more they are
-      rewarded with an income. You can earn up to $50 a day without any
-      experience or qualifications.
+      and engaging with content.
+    </p>
+    <p className={`${styles.paragraphSm}  mt-3`}>
+      The more they engage, the more they are rewarded with an income. You can
+      earn up to $50 a day without any experience or qualifications.
     </p>
   </section>
 );

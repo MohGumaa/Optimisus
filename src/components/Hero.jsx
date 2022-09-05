@@ -21,9 +21,9 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[40px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[68px] text-[40px] text-white ss:leading-[100.8px] leading-[75px] md:mr-3 mr-0">
             Revolutionizing <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">The Crypto</span>{" "}
+            <span className="text-gradient">The Media</span>{" "}
           </h1>
           <a
             href="https://www.optimisus.com/"
@@ -35,12 +35,12 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[40px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          News Industry.
+          Industry.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the crypto payment
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          Since Web3 is about the users, our mission is to give back to the
+          community. You can earn tokens by reading, writing, or editing
+          contents.
         </p>
       </div>
 

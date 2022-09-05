@@ -1,6 +1,6 @@
-import { quotes } from "../assets";
+import { quotes, twitter, linkedin } from "../assets";
 
-const TeamCard = ({ content, name, title, img }) => (
+const TeamCard = ({ content, name, title, img, linkedURL, twitterURL }) => (
   <div className="flex justify-between flex-col px-4 py-4 rounded-[20px]  max-w-[100%] sm:max-w-[275px]  md:mr-2 sm:mr-1 mr-0 my-5 feedback-card">
     <img
       src={quotes}
@@ -20,6 +20,20 @@ const TeamCard = ({ content, name, title, img }) => (
         <p className="font-poppins font-normal text-[14px] leading-[24px] text-dimWhite">
           {title}
         </p>
+        <div className="flex flex-row mt-2">
+          <img
+            src={linkedin}
+            alt={name}
+            className={`w-[20px] object-contain cursor-pointer rounded-full mr-6`}
+            onClick={() => window.open(linkedURL)}
+          />
+          <img
+            src={twitter}
+            alt={name}
+            className={`w-[20px] object-contain cursor-pointer rounded-full`}
+            onClick={() => window.open(twitterURL)}
+          />
+        </div>
       </div>
     </div>
   </div>

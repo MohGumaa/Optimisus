@@ -1,7 +1,8 @@
 import {
-  people01,
-  people02,
-  people03,
+  ivan,
+  roland,
+  mayowa,
+  daniel,
   linkedin,
   telegram,
   twitter,
@@ -14,14 +15,6 @@ import {
   send,
   shield,
   star,
-  uniswaplogo,
-  medexcom,
-  pancake,
-  sushi,
-  uniswap,
-  uniswapvb,
-  cryptology,
-  mexc,
 } from "../assets";
 
 export const navLinks = [
@@ -61,21 +54,21 @@ export const features = [
     icon: star,
     title: "Rewards",
     content:
-      "The best crypto payment offer some tantalizing combinations of promotions and prizes",
+      "Make passive income while engaging with crypto articles. The more you engage with content, the more you earn.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Access To Exclusives",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Easy access to the most exclusive content in the crypto industry.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Access To Trending Articles",
     content:
-      "A balance transfer crypto payment can save you a lot of money in interest charges.",
+      "We provide a wide range of trending news around crypto, NFT, blockchain, and fintech.",
   },
 ];
 
@@ -83,10 +76,12 @@ export const teamMembers = [
   {
     id: "team-1",
     content:
-      "Roland is a Public Relations (PR) & Communications guru with an immense passion for the Blockchain and Crypto Industry. A fusion of his expertise and passion led to the dawn of Optimisus in 2020.",
+      "Roland is a Public Relations & Communications guru with an immense passion for the blockchain and crypto industry. A fusion of his expertise and passion led to the dawn of Optimisus in 2020.",
     name: "Roland Guirdonan",
-    title: "CEO & Founder ",
-    img: people02,
+    title: "CEO / Founder ",
+    img: roland,
+    linkedURL: "https://www.linkedin.com/in/guirdona-roland-89aba0112/",
+    twitterURL: "https://twitter.com/RolandGuirdonan",
   },
   {
     id: "team-2",
@@ -94,15 +89,20 @@ export const teamMembers = [
       "Mayowa is a blockchain & crypto expert with a keen interest in crypto investment analysis and crypto trading, an occupation he has done for reputable blockchain & crypto projects and companies since 2017.",
     name: "Mayowa Adenle",
     title: "Chief Operating Officer",
-    img: people01,
+    img: mayowa,
+    linkedURL: "https://www.linkedin.com/in/mayowa-adenle-15100119a",
+    twitterURL: "https://twitter.com/mannuueell_0/",
   },
   {
     id: "team-3",
     content:
-      "Daniel is an accomplished writer with vast experience in print and digital media publications. He has over four years experience in creating, writing, editing and publishing crypto content for major crypto media.",
+      "Daniel is an accomplished writer with vast experience in print and digital media publications. He has over four years experience in creating, writing, editing and publishing crypto content for major crypto media companies.",
     name: "Daniel Karikari",
     title: "Editor-in-Chief ",
-    img: people03,
+    img: daniel,
+    linkedURL: "https://www.linkedin.com/in/karikari-daniel-777939224/",
+    twitterURL:
+      "https://twitter.com/Collins_ForReal?t=vSfidrnxCL65EXsvyk6ueA&s=09",
   },
   {
     id: "team-4",
@@ -110,25 +110,27 @@ export const teamMembers = [
       "Ivan is a business strategist responsible for implementing strategic plans and a growth strategy which includes building and managing business relationships as well as partnerships for Optimisus.",
     name: "Ivan Begumisa",
     title: "Chief Strategy Officer",
-    img: people03,
+    img: ivan,
+    linkedURL: "https://www.linkedin.com/in/ivan-begumisa-24031995",
+    twitterURL: "https://twitter.com/iambegumisa?t=3hnpQFnUviQXh-J0oNTsTw&s=35",
   },
 ];
 
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Active Users",
+    value: "60,000+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Partners",
+    value: "30+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Articles",
+    value: "20,000+",
   },
 ];
 
@@ -241,49 +243,6 @@ export const clients = [
   {
     id: "client-6",
     logo: encircleg,
-    link: "#",
-  },
-];
-
-export const exchangesLogo = [
-  {
-    id: "exchange-1",
-    logo: uniswaplogo,
-    link: "https://cryptofestdubai.com/",
-  },
-  {
-    id: "exchange-2",
-    logo: medexcom,
-    link: "www.aimsummit.com",
-  },
-  {
-    id: "exchange-3",
-    logo: pancake,
-    link: "#",
-  },
-  {
-    id: "exchange-4",
-    logo: sushi,
-    link: "https://nowpayments.io/",
-  },
-  {
-    id: "exchange-5",
-    logo: uniswap,
-    link: "#",
-  },
-  {
-    id: "exchange-6",
-    logo: uniswapvb,
-    link: "#",
-  },
-  {
-    id: "exchange-7",
-    logo: cryptology,
-    link: "#",
-  },
-  {
-    id: "exchange-8",
-    logo: mexc,
     link: "#",
   },
 ];
