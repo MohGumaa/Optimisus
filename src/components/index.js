@@ -10,6 +10,7 @@ import Teams from "./Teams";
 import Hero from "./Hero";
 import About from "./About";
 import Exchanges from "./Exchanges";
+import Timeline from "./Timeline";
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   Teams,
   Hero,
   Exchanges,
+  Timeline,
 };
