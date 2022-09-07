@@ -1,4 +1,4 @@
-import { card } from "../assets";
+import { editEarn } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -22,7 +22,7 @@ const EditToEarn = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={editEarn} alt="billing" className="w-[100%]" loading="lazy" />
     </div>
   </section>
 );

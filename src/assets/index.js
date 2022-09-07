@@ -4,11 +4,11 @@ import dehotels from "./dehotels.png";
 import encircleg from "./encircleg.png";
 import summitDubai from "./summitDubai.png";
 import nowpayments from "./nowpayments.png";
-import bill from "./bill.png";
-import card from "./card.png";
+import contributeImg from "./contribute-img.png";
+import editEarn from "./edit-to-earn.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
+import heroimg from "./hero-img.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -29,16 +29,16 @@ import tokenomics from "./tokenomics.png";
 
 export {
   cryptofest,
-  bill,
+  contributeImg,
   cryptoNFT,
-  card,
+  editEarn,
   encircleg,
   dehotels,
   summitDubai,
   nowpayments,
   logo,
   quotes,
-  robot,
+  heroimg,
   send,
   shield,
   star,

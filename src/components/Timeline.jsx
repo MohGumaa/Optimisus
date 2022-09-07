@@ -3,9 +3,6 @@ import styles from "../style";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// import required modules
-// import { Pagination } from "swiper";
-
 export default function App() {
   return (
     <section id="roadmap" className="sm:py-24 py-6">
@@ -19,9 +16,6 @@ export default function App() {
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        // pagination={{
-        //   clickable: false,
-        // }}
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -36,7 +30,6 @@ export default function App() {
             spaceBetween: 40,
           },
         }}
-        // modules={[Pagination]}
         className="mySwiper"
       >
         <SwiperSlide>

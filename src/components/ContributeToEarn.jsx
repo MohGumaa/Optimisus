@@ -1,4 +1,4 @@
-import { bill } from "../assets";
+import { contributeImg } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -6,9 +6,10 @@ const ContributeToEarn = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
-        src={bill}
-        alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
+        src={contributeImg}
+        alt="contribute"
+        className="w-[100%] relative z-[5]"
+        loading="lazy"
       />
 
       {/* gradient start */}

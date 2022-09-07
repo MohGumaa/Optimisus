@@ -14,6 +14,7 @@ const Exchanges = () => (
       src={tokenomics}
       alt="Optimisus Token"
       className="relative z-[5] mx-auto"
+      loading="lazy"
     />
   </section>
 );
