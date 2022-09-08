@@ -3,12 +3,16 @@ const styles = {
 
   heading2:
     "font-poppins font-semibold xs:text-[48px] text-[36px] text-white xs:leading-[76.8px] leading-[54.8px] w-full",
+  heading2Sm:
+    "font-poppins font-semibold xs:text-[48px] text-[32px] text-white xs:leading-[76.8px] leading-[40px] w-full",
   heading3:
     "font-poppins font-semibold xs:text-[48px] text-[24px] text-white xs:leading-[76.8px] leading-[48px] w-full",
   paragraph:
     "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
   paragraphSm:
     "font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px]",
+  paragraphXSm:
+    "font-poppins font-normal text-dimWhite xs:text-[16px] text-[15px] xs:leading-[30.8px] leading-[28px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

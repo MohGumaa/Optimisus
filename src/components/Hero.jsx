@@ -14,9 +14,7 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2 sm:mt-0 mt-8">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Buy</span> and{" "}
-            <span className="text-white">sell</span> products at the comfort of
-            your home
+            Buy <span className="text-white">OPX</span> Token
           </p>
         </div>
 

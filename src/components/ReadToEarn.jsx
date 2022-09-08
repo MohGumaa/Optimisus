@@ -27,14 +27,14 @@ const FeatureCard = ({ icon, title, content, index }) => (
 const ReadToEarn = () => (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Read To Earn</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <h2 className={styles.heading2Sm}>Read To Earn</h2>
+      <p className={`${styles.paragraphSm} max-w-[470px] mt-5`}>
         We're not just providing you with the latest news on crypto, but we're
         also offering you a way to make money while reading and learning. By
         reading articles, readers earn tokens for their time. The more they
         read, the more they are rewarded with an income.
       </p>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraphSm} max-w-[470px] mt-5`}>
         This new <strong>read-and-earn</strong> model is designed to help users
         make money by doing something they love—reading about the latest
         developments in the world of crypto and blockchain. In addition to

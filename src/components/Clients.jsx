@@ -3,7 +3,7 @@ import styles from "../style";
 
 const Clients = () => (
   <section id="partners" className={`${styles.flexCenter} sm:py-16 py-6 my-4`}>
-    <div className={`${styles.flexCenter} flex-wrap w-full`}>
+    <div className={`grid grid-cols-2 md:grid-cols-6 w-full`}>
       {clients.map((client) => (
         <a
           href={client.link}
